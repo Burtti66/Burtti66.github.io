@@ -1,0 +1,46 @@
+<head>
+  <script src="//unpkg.com/sunburst-chart"></script>
+  <!--<script src="../../dist/sunburst-chart.js"></script>-->
+
+  <style>body { margin: 0 }</style>
+</head>
+<body>
+  <div id="chart"></div>
+
+  <script>
+    const data = {
+        name: "PURPOSE",
+        color: "#f94d1d",
+        children:[{
+          name: "Strategia",
+          color: "#f94d1d",
+          children:[{
+            name: "Viestintästrategia",
+            color: "#f94d1d",
+            size: 1
+          }, {
+          name:"Kulttuuri",
+          color: "#f94d1d",
+          children:[{
+            name: "Kulttuurituote A",
+            color: "#f94d1d",
+            size: 1
+          }, {
+            name: "Kulttuurituote B",
+            color: "#f94d1d",
+            size: 1
+          }]
+          }]
+        }]
+      };
+
+
+
+
+    Sunburst()
+      .data(data)
+      .size('size')
+      .color('color')
+      (document.getElementById('chart'));
+  </script>
+</body>

@@ -9,42 +9,129 @@
 
   <script>
     const data = {
-      name: 'PURPOSE',
-      color: '#969696',
-      children: [{
-        name: 'Kulttuuri',
-        color: 'blue',
-        children: [{
-          name:"Kultturituote A",
-          color: "blue",
-          size: 1
-        },{
-          name:"Kultturituote B",
-          color: "blue",
-          size: 1
-        },{
-        name: 'Strategia',
-        color: 'red',
-        children: [{
-          name: 'Brandin ydin',
-          color: 'orange',
-          size: 1
-        }, {
-          name: 'Viestintästrategia',
-          color: 'blue',
-          children: [{
-            name: 'Viestintäsuunnitelma',
-            color: 'red',
+
+        name: "PURPOSE",
+        color: "#f94d1d",
+        children:[{
+          name: "Strategia",
+          color: "#f94d1d",
+          children:[{
+            name: "Viestintästrategia",
+            color: "#f94d1d",
+            children:[{
+              name: "Sisäinen viestintä",
+              color: "#f94d1d",
+              children:[{
+                name: "Tuote A",
+                color: "#f94d1d",
+                size: 1
+              },{
+                name: "Tuote B",
+                color: "#f94d1d",
+                size: 1
+              },{
+                name: "Tuote C",
+                color: "#f94d1d",
+                size: 1
+              },{
+              name: "Viestintäsuunnitelma",
+              color: "#f94d1d",
+              children:[{
+                name: "Pääviestit",
+                color: "#f94d1d",
+                children:[{
+                  name: "Slogan",
+                  color: "#f94d1d",
+                  size: 1
+                },{
+                  name: "Tuote A",
+                  color: "#f94d1d",
+                  size: 1
+                },{
+                  name: "Tuote B",
+                  color: "#f94d1d",
+                  size: 1
+                },{
+                  name: "Tuote C",
+                  color: "#f94d1d",
+                  size: 1
+                },{
+            name: "Arvoprosessi",
+            color: "#f94d1d",
+            children:[{
+              name: "Tuote A",
+              color: "#f94d1d",
+              size: 1
+            },{
+              name: "Tuote B",
+              color: "#f94d1d",
+              size: 1
+            },{
+              name: "Tuote C",
+              color: "#f94d1d",
+              size: 1
+            },{
+            name: "Bränsistrategia",
+            color: "#f94d1d",
+            children:[{
+              name: "Tuote A",
+              color: "#f94d1d",
+              size: 1
+            },{
+              name: "Tuote B",
+              color: "#f94d1d",
+              size: 1
+            },{
+              name: "Tuote C",
+              color: "#f94d1d",
+              size: 1
+            },{
+            name: "Vastuullisuusstrategia",
+            color: "#f94d1d",
+            children:[{
+              name: "Tuote A",
+              color: "#f94d1d",
+              size: 1
+            },{
+              name: "Tuote B",
+              color: "#f94d1d",
+              size: 1
+            },{
+              name: "Tuote C",
+              color: "#f94d1d",
+              size: 1
+            },{
+            name: "Visuaalinen identiteetti",
+            color: "#f94d1d",
+            children:[{
+              name: "Tuote A",
+              color: "#f94d1d",
+              size: 1
+            },{
+              name: "Tuote B",
+              color: "#f94d1d",
+              size: 1
+            },{
+              name: "Tuote C",
+              color: "#f94d1d",
+              size: 1
+            },{
+          name:"Kulttuuri"
+          children:
+            name: "Kulttuurituote A",
+            color: "#f94d1d",
             size: 1
-          }, {
-            name: 'Pääviestit',
-            color: 'pink',
+          },{
+            name: "Kulttuurituote B"
+            color: "#f94d1d",
             size: 1
-          }]
-        }]
-      }]
-    }]
-    };
+
+
+
+
+
+
+////////
 
     Sunburst()
       .data(data)
@@ -53,3 +140,24 @@
       (document.getElementById('chart'));
   </script>
 </body>
+
+
+name:"PURPOSE",
+color: "#969696",
+children: [{
+  name: "Strategia",
+  color: "#f94d1d",
+  children: [{
+    name: "St1",
+    color: "#f94d1d",
+    children: [{
+
+    }]
+  }]
+},{
+  name: "Kulttuuri",
+  color: "#7891c4",
+  size: 1
+
+}
+}]
