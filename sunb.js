@@ -153,7 +153,7 @@ md`# Sunburst`
 );
   main.variable(observer("data")).define("data", ["d3","_"], async function(d3,_)
 {
-  const ungrouped = await d3.csv("data-v2.csv", d3.autoType);
+  const ungrouped = await d3.csv("https://gist.githubusercontent.com/devth/1446bd43cdb258c3bc8a4a3cf7a80a3e/raw/e45a2d8f7ee32d218ff0ed9f2faf7a0d45e5618a/data-v2.csv", d3.autoType);
 //https://gist.githubusercontent.com/devth/1446bd43cdb258c3bc8a4a3cf7a80a3e/raw/e45a2d8f7ee32d218ff0ed9f2faf7a0d45e5618a/data-v2.csv
   window.ungrouped = ungrouped;
 
