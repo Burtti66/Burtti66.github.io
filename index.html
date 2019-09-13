@@ -1,38 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-<meta charset="utf-8">
-
-<title>PURPOSE</title>
-<script type="text/javascript" src="js/d3.v4.min.js"></script>
-<style>
-</head>
-.svglabel {
-  font-family: serif;
-  pointer-events: none;
-}
-body {
-  -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
-}
-</style>
-
+  <meta charset="utf-8">
+  <title>D3 v5 Zoomable Sunburst</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@observablehq/stdlib"></script></head>
 <body>
-  <div id="vis_en"></div>
-  <script src="sunb.js"></script>
-  <script type="text/jscript">
-    var fileLinks = [
-      {id: "vis_en", filename: "data/feelings_EN.txt"},
-  //    {id: "vis_de", filename: "data/gefuehle.txt"}
-    ];
-
-    fileLinks.forEach(function(l) {
-      createVisualization(l.id, l.filename);
-    });
-  </script>
+  <svg id="partitionSVG" width="932" height="932" viewBox="0 0 932 932"></svg>
+  <script src="bundle.js"></script>
 </body>
