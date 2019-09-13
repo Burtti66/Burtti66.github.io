@@ -9,33 +9,41 @@
 
   <script>
     const data = {
-      name: 'main',
-      color: 'magenta',
+      name: 'PURPOSE',
+      color: '#969696',
       children: [{
-        name: 'a',
-        color: 'yellow',
-        size: 1
-      },{
-        name: 'b',
+        name: 'Kulttuuri',
+        color: 'blue',
+        children: [{
+          name:"Kultturituote A",
+          color: "blue",
+          size: 1
+        },{
+          name:"Kultturituote B",
+          color: "blue",
+          size: 1
+        },{
+        name: 'Strategia',
         color: 'red',
         children: [{
-          name: 'ba',
+          name: 'Brandin ydin',
           color: 'orange',
           size: 1
         }, {
-          name: 'bb',
+          name: 'Viestintästrategia',
           color: 'blue',
           children: [{
-            name: 'bba',
-            color: 'green',
+            name: 'Viestintäsuunnitelma',
+            color: 'red',
             size: 1
           }, {
-            name: 'bbb',
+            name: 'Pääviestit',
             color: 'pink',
             size: 1
           }]
         }]
       }]
+    }]
     };
 
     Sunburst()
