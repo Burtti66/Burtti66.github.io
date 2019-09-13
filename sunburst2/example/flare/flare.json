@@ -11,9 +11,6 @@
       {"name": "Kulttuuri 1 tuote B", "size": 1233}
      ]
     },
-    {"name": "IEvaluable", "size": 335},
-    {"name": "IPredicate", "size": 383},
-    {"name": "IValueProxy", "size": 874},
     {
      "name": "Kulttuuri 2",
      "children": [
@@ -22,7 +19,6 @@
       {"name": "Kulttuuri 2 tuote C", "size": 3366}
      ]
     },
-    ]
     },
    ]
   },
