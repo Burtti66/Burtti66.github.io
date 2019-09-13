@@ -10,8 +10,8 @@
 
 var sameSizeText = true; // make font the same size across siblings
 
-var width = 960,
-    height = 700,
+var width = 1200,
+    height = 1200,
     radius = (Math.min(width, height) / 2) - 10;
 
 var x = d3.scaleLinear().range([0, 2 * Math.PI]);
@@ -266,4 +266,3 @@ function tree(nodes) {
 
   return root;
 }
-
