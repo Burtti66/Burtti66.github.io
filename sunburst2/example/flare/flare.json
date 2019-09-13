@@ -1,49 +1,29 @@
 {
- "name": "flare",
+ "name": "PURPOSE",
  "children": [
   {
-   "name": "util",
+   "name": "Kulttuuri",
    "children": [
-    {"name": "Arrays", "size": 8258},
-    {"name": "Colors", "size": 10001},
-    {"name": "Dates", "size": 8217},
-    {"name": "Displays", "size": 12555},
-    {"name": "Filter", "size": 2324},
-    {"name": "Geometry", "size": 10993},
     {
-     "name": "heap",
+     "name": "Kulttuuri 1",
      "children": [
-      {"name": "FibonacciHeap", "size": 9354},
-      {"name": "HeapNode", "size": 1233}
+      {"name": "Kulttuuri 1 tuote A", "size": 9354},
+      {"name": "Kulttuuri 1 tuote B", "size": 1233}
      ]
     },
     {"name": "IEvaluable", "size": 335},
     {"name": "IPredicate", "size": 383},
     {"name": "IValueProxy", "size": 874},
     {
-     "name": "math",
+     "name": "Kulttuuri 2",
      "children": [
-      {"name": "DenseMatrix", "size": 3165},
-      {"name": "IMatrix", "size": 2815},
-      {"name": "SparseMatrix", "size": 3366}
+      {"name": "Kulttuuri 2 tuote A ", "size": 3165},
+      {"name": "Kulttuuri 2 tuote B", "size": 2815},
+      {"name": "Kulttuuri 2 tuote C", "size": 3366}
      ]
     },
-    {"name": "Maths", "size": 17705},
-    {"name": "Orientation", "size": 1486},
-    {
-     "name": "palette",
-     "children": [
-      {"name": "ColorPalette", "size": 6367},
-      {"name": "Palette", "size": 1229},
-      {"name": "ShapePalette", "size": 2059},
-      {"name": "SizePalette", "size": 2291}
-     ]
+    ]
     },
-    {"name": "Property", "size": 5559},
-    {"name": "Shapes", "size": 19118},
-    {"name": "Sort", "size": 6887},
-    {"name": "Stats", "size": 6557},
-    {"name": "Strings", "size": 22026}
    ]
   },
   {
