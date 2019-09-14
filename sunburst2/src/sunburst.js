@@ -200,7 +200,7 @@ export default Kapsule({
       .on('mouseover', d => {
         d3Event.stopPropagation();
         state.onHover && state.onHover(d.data);
-        
+
         state.tooltip.style('display', state.showTooltip(d.data, d) ? 'inline' : 'none');
         state.tooltip.html(`<div class="tooltip-title">${
           state.tooltipTitle
@@ -225,15 +225,15 @@ export default Kapsule({
         .attr('class', 'path-label');
 
     // Add white contour
-    label.append('textPath')
-      .attr('class', 'text-contour')
-      .attr('startOffset','50%')
-      .attr('xlink:href', d => `#hidden-arc-${state.chartId}-${d.id}` );
-
-    label.append('textPath')
-      .attr('class', 'text-stroke')
-      .attr('startOffset','50%')
-      .attr('xlink:href', d => `#hidden-arc-${state.chartId}-${d.id}` );
+    // label.append('textPath')
+    //   .attr('class', 'text-contour')
+    //   .attr('startOffset','50%')
+    //   .attr('xlink:href', d => `#hidden-arc-${state.chartId}-${d.id}` );
+    //
+    // label.append('textPath')
+    //   .attr('class', 'text-stroke')
+    //   .attr('startOffset','50%')
+    //   .attr('xlink:href', d => `#hidden-arc-${state.chartId}-${d.id}` );
 
     // Entering + Updating
     const allSlices = slice.merge(newSlice);
