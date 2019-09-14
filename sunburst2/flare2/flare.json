@@ -48,54 +48,54 @@
     {
      "name": "converters",
      "children": [
-      {"name": "JSONConverter", "size": 1}
+      {"name": "JSONConverter", "size": 0}
      ]
     },
-    {"name": "DataField", "size": 1},
-    {"name": "DataUtil", "size": 1}
+    {"name": "DataField", "size": 0},
+    {"name": "DataUtil", "size": 0}
    ]
   },
   {
    "name": "display",
    "children": [
-    {"name": "DirtySprite", "size": 1},
-    {"name": "TextSprite", "size": 1}
+    {"name": "DirtySprite", "size": 0},
+    {"name": "TextSprite", "size": 0}
    ]
   },
   {
    "name": "flex",
    "children": [
-    {"name": "FlareVis", "size": 1}
+    {"name": "FlareVis", "size": 0}
    ]
   },
   {
    "name": "physics",
    "children": [
-    {"name": "DragForce", "size": 1},
-    {"name": "SpringForce", "size": 1}
+    {"name": "DragForce", "size": 0},
+    {"name": "SpringForce", "size": 0}
    ]
   },
   {
    "name": "query",
    "children": [
-    {"name": "AggregateExpression", "size": 1},
-    {"name": "Maximum", "size": 1},
+    {"name": "AggregateExpression", "size": 0},
+    {"name": "Maximum", "size": 0},
     {
      "name": "methods",
      "children": [
-      {"name": "add", "size": 1},
-      {"name": "_", "size": 1}
+      {"name": "add", "size": 0},
+      {"name": "_", "size": 0}
      ]
     },
-    {"name": "Minimum", "size": 1},
-    {"name": "Xor", "size": 1}
+    {"name": "Minimum", "size": 0},
+    {"name": "Xor", "size": 0}
    ]
   },
   {
    "name": "scale",
    "children": [
-    {"name": "IScaleMap", "size": 1},
-    {"name": "TimeScale", "size": 1}
+    {"name": "IScaleMap", "size": 0},
+    {"name": "TimeScale", "size": 0}
    ]
   }
  ]
