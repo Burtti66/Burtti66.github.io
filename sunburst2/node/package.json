@@ -1,0 +1,14 @@
+{
+  "name": "@benjordan/node-dependencies",
+  "main": "@benjordan/node-dependencies.js",
+  "version": "385.0.0",
+  "homepage": "https://observablehq.com/@benjordan/node-dependencies",
+  "author": {
+    "name": "Ben Jordan",
+    "url": "https://observablehq.com/@benjordan"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
