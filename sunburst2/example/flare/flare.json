@@ -1,5 +1,6 @@
 {
  "name": "PURPOSEx",
+ "color":"#fff",
  "children": [
   {
    "name": "test",
