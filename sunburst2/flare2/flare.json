@@ -1,33 +1,33 @@
 {
- "name": "PURPOSExx",
+ "name": "PURPOSE",
  "children": [
   {
-   "name": "test",
+   "name": "Strategia",
    "children": [
     {
-     "name": "cluster",
+     "name": "Viestintästrategia",
      "children": [
-      {"name": "AgglomerativeCluster", "size": 1},
-      {"name": "MergeEdge", "size": 1}
+      {"name": "Sisäinen viestintä", "size": 1},
+      {"name": "Viestintäsuunnitelma", "size": 1}
      ]
     },
     {
-     "name": "graph",
+     "name": "Arvoprosessi",
      "children": [
-      {"name": "BetweennessCentrality", "size": 1},
-      {"name": "SpanningTree", "size": 1}
+      {"name": "Tuote A", "size": 1},
+      {"name": "Tuote B", "size": 1}
      ]
     },
     {
-     "name": "optimization",
+     "name": "Brändistartegia",
      "children": [
-      {"name": "AspectRatioBanker", "size": 1}
+      {"name": "Tuote A", "size": 1}
      ]
     }
    ]
   },
   {
-   "name": "animate",
+   "name": "Kulttuuri",
    "children": [
     {"name": "Easing", "size": 1},
     {"name": "FunctionSequence", "size": 1},
