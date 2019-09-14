@@ -97,41 +97,6 @@
     {"name": "IScaleMap", "size": 1},
     {"name": "TimeScale", "size": 1}
    ]
-  },
-  {
-   "name": "util",
-   "children": [
-    {"name": "Arrays", "size": 1},
-    {"name": "Geometry", "size": 1},
-    {
-     "name": "heap",
-     "children": [
-      {"name": "FibonacciHeap", "size": 1},
-      {"name": "HeapNode", "size": 1}
-     ]
-    },
-    {"name": "IEvaluable", "size": 1},
-    {"name": "IPredicate", "size": 1},
-    {"name": "IValueProxy", "size": 1},
-    {
-     "name": "math",
-     "children": [
-      {"name": "DenseMatrix", "size": 1},
-      {"name": "SparseMatrix", "size": 1}
-     ]
-    },
-    {"name": "Maths", "size": 1},
-    {"name": "Orientation", "size": 1},
-    {
-     "name": "palette",
-     "children": [
-      {"name": "ColorPalette", "size": 1},
-      {"name": "SizePalette", "size": 1}
-     ]
-    },
-    {"name": "Property", "size": 1},
-    {"name": "Strings", "size": 1}
-   ]
-  },
+  }
  ]
 }
