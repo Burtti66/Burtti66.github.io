@@ -2,26 +2,26 @@
  "name": "flare",
  "children": [
   {
-   "name": "analytics",
+   "name": "test",
    "children": [
     {
      "name": "cluster",
      "children": [
-      {"name": "AgglomerativeCluster", "size": 3938},
-      {"name": "MergeEdge", "size": 743}
+      {"name": "AgglomerativeCluster", "size": 1},
+      {"name": "MergeEdge", "size": 1}
      ]
     },
     {
      "name": "graph",
      "children": [
-      {"name": "BetweennessCentrality", "size": 3534},
-      {"name": "SpanningTree", "size": 3416}
+      {"name": "BetweennessCentrality", "size": 1},
+      {"name": "SpanningTree", "size": 1}
      ]
     },
     {
      "name": "optimization",
      "children": [
-      {"name": "AspectRatioBanker", "size": 7074}
+      {"name": "AspectRatioBanker", "size": 1}
      ]
     }
    ]
