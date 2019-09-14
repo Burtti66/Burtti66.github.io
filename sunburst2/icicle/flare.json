@@ -1,0 +1,102 @@
+{
+ "name": "PURPOSExx",
+ "children": [
+  {
+   "name": "test",
+   "children": [
+    {
+     "name": "cluster",
+     "children": [
+      {"name": "AgglomerativeCluster", "size": 1},
+      {"name": "MergeEdge", "size": 1}
+     ]
+    },
+    {
+     "name": "graph",
+     "children": [
+      {"name": "BetweennessCentrality", "size": 1},
+      {"name": "SpanningTree", "size": 1}
+     ]
+    },
+    {
+     "name": "optimization",
+     "children": [
+      {"name": "AspectRatioBanker", "size": 1}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "animate",
+   "children": [
+    {"name": "Easing", "size": 1},
+    {"name": "FunctionSequence", "size": 1},
+    {
+     "name": "interpolate",
+     "children": [
+      {"name": "ArrayInterpolator", "size": 1},
+      {"name": "RectangleInterpolator", "size": 1}
+     ]
+    },
+    {"name": "ISchedulable", "size": 1},
+    {"name": "Tween", "size": 1}
+   ]
+  },
+  {
+   "name": "data",
+   "children": [
+    {
+     "name": "converters",
+     "children": [
+      {"name": "JSONConverter", "size": 1}
+     ]
+    },
+    {"name": "DataField", "size": 1},
+    {"name": "DataUtil", "size": 1}
+   ]
+  },
+  {
+   "name": "display",
+   "children": [
+    {"name": "DirtySprite", "size": 1},
+    {"name": "TextSprite", "size": 1}
+   ]
+  },
+  {
+   "name": "flex",
+   "children": [
+    {"name": "FlareVis", "size": 1}
+   ]
+  },
+  {
+   "name": "physics",
+   "children": [
+    {"name": "DragForce", "size": 1},
+    {"name": "SpringForce", "size": 1}
+   ]
+  },
+  {
+   "name": "query",
+   "children": [
+    {"name": "AggregateExpression", "size": 1},
+    {"name": "Maximum", "size": 1},
+    {
+     "name": "methods",
+     "children": [
+      {"name": "add", "size": 1},
+      {"name": "_", "size": 1}
+     ]
+    },
+    {"name": "Minimum", "size": 1},
+    {"name": "Xor", "size": 1}
+   ]
+  },
+  {
+   "name": "scale",
+   "children": [
+    {"name": "IScaleMap", "size": 1},
+    {"name": "TimeScale", "size": 1}
+   ]
+  }
+ ]
+}
