@@ -1,8 +1,14 @@
+<!-- LOCAL -->
 <head>
+			<meta charset="UTF-8" />
     <style>
         body {
             font-family: Sans-serif;
             font-size: 16px;
+        }
+
+        text {
+          fill: #fff;
         }
 
         .slice {
@@ -42,7 +48,10 @@
         const y = d3.scaleSqrt()
             .range([maxRadius*.1, maxRadius]);
 
-        const color = d3.scaleOrdinal(d3.schemeCategory20c);
+        const color = d3.scaleOrdinal(["#f94d1d", "#ff6f3a", "#ff8b53"]);
+        // const color = d3.scaleOrdinal(d3.schemeCategory20c);
+        // color = d3.scaleOrdinal(d3.quantize(d3.interpolateRainbow, data.children.length + 1))
+        //     .range(["#2ab27b", "#78aaff", "#f08955", "#b43f4d"]);
 
         const partition = d3.partition();
 
@@ -67,7 +76,7 @@
         };
 
         const textFits = d => {
-            const CHAR_SPACE = 6;
+            const CHAR_SPACE = 5;
 
             const deltaAngle = x(d.x1) - x(d.x0);
             const r = Math.max(0, (y(d.y0) + y(d.y1)) / 2);
@@ -82,7 +91,7 @@
             .attr('viewBox', `${-width / 2} ${-height / 2} ${width} ${height}`)
             .on('click', () => focusOn()); // Reset zoom on canvas click
 
-        d3.json('flare.json', (error, root) => {
+        d3.json('https://burtti66.github.io/sunburst2/flare2/flare.json', (error, root) => {
             if (error) throw error;
 
             root = d3.hierarchy(root);
@@ -122,8 +131,9 @@
                 .attr('xlink:href', (_, i) => `#hiddenArc${i}` )
                 .text(d => d.data.name)
                 .style('fill', 'none')
-                .style('stroke', '#fff')
-                .style('stroke-width', 0)
+                .style('stroke', '#000')
+                .style("stroke-opacity", 0.4)
+                .style('stroke-width', 3)
                 .style('stroke-linejoin', 'round');
 
             text.append('textPath')
