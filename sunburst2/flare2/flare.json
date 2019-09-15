@@ -6,7 +6,10 @@
     {"name": "Viestintästrategia",
      "children": [
       {"name": "Sisäinen viestintä", "size": 1},
-      {"name": "Viestintäsuunnitelma", "size": 1}
+      {"name": "Viestintäsuunnitelma", "size": 1},
+      "children": [
+        {"name": "kakka"}
+      ]
      ]
     },
     {"name": "Arvoprosessi",
