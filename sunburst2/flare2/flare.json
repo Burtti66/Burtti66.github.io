@@ -1,33 +1,28 @@
 {
  "name": "PURPOSE",
  "children": [
-  {
-   "name": "Strategia",
+  {"name": "Strategia",
    "children": [
-    {
-     "name": "Viestintästrategia",
+    {"name": "Viestintästrategia",
      "children": [
       {"name": "Sisäinen viestintä", "size": 1},
       {"name": "Viestintäsuunnitelma", "size": 1}
      ]
     },
-    {
-     "name": "Arvoprosessi",
+    {"name": "Arvoprosessi",
      "children": [
       {"name": "TuoteA", "size": 1},
       {"name": "TuoteB", "size": 1}
      ]
     },
-    {
-     "name": "Brändistartegia",
+    {"name": "Brändistartegia",
      "children": [
       {"name": "TuoteA", "size": 1}
      ]
     }
    ]
   },
-  {
-   "name": "Kulttuuri",
+  {"name": "Kulttuuri",
    "children": [
     {"name": "TuoteA", "size": 1},
     {"name": "TuoteB", "size": 1},
@@ -44,8 +39,7 @@
     {"name": "TuoteB", "size": 0}
    ]
   },
-  {
-   "name": "data",
+  {"name": "data",
    "children": [
     {
      "name": "converters",
