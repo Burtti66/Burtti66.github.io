@@ -31,6 +31,8 @@
    "children": [
     {"name": "TuoteA", "size": 1},
     {"name": "TuoteB", "size": 1},
+    {"name": "TuoteC", "size": 1},
+    {"name": "TuoteD", "size": 1},
     {
      "name": "Alue1",
      "children": [
@@ -38,8 +40,8 @@
       {"name": "TuoteB", "size": 1}
      ]
     },
-    {"name": "TuoteA", "size": 1},
-    {"name": "TuoteB", "size": 1}
+    {"name": "TuoteA", "size": 0},
+    {"name": "TuoteB", "size": 0}
    ]
   },
   {
