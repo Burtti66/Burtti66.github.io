@@ -14,14 +14,14 @@
     {
      "name": "Arvoprosessi",
      "children": [
-      {"name": "Tuote A", "size": 1},
-      {"name": "Tuote B", "size": 1}
+      {"name": "TuoteA", "size": 1},
+      {"name": "TuoteB", "size": 1}
      ]
     },
     {
      "name": "Brändistartegia",
      "children": [
-      {"name": "Tuote A", "size": 1}
+      {"name": "TuoteA", "size": 1}
      ]
     }
    ]
@@ -29,17 +29,17 @@
   {
    "name": "Kulttuuri",
    "children": [
-    {"name": "Easing", "size": 1},
-    {"name": "FunctionSequence", "size": 1},
+    {"name": "TuoteA", "size": 1},
+    {"name": "TuoteB", "size": 1},
     {
-     "name": "interpolate",
+     "name": "Alue1",
      "children": [
-      {"name": "ArrayInterpolator", "size": 1},
-      {"name": "RectangleInterpolator", "size": 1}
+      {"name": "TuoteA", "size": 1},
+      {"name": "TuoteB", "size": 1}
      ]
     },
-    {"name": "ISchedulable", "size": 1},
-    {"name": "Tween", "size": 1}
+    {"name": "TuoteA", "size": 1},
+    {"name": "TuoteB", "size": 1}
    ]
   },
   {
